@@ -27,12 +27,15 @@ a {
 
 /* Оформление хедера */
 .logo {
-  color: #000;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+
+.header {
+  color: #000;
 }
 
 .web {
@@ -60,7 +63,7 @@ a {
   color: var(--button-color);
 }
 
-/* Оформление омсновной части */
+/* Оформление основной части */
 
 .baner,
 .footer {
@@ -90,4 +93,66 @@ a {
   color: var(--baner-text-color);
 }
 
+.benefits {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.class {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.title {
+  color: var(--title-color);
+}
+
+.team {
+  background-color: rgba(245, 244, 250, 1);
+}
+
+.names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /* Оформление футера */
+
+.footer {
+  color: #fff;
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+footer .contacts a {
+  color: rgba(255, 255, 255, 0.6);
+}
