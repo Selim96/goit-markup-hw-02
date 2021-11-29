@@ -20,11 +20,8 @@ body {
   color: var(--primery-text-color);
 }
 
-ul {
+.no-dots {
   list-style: none;
-}
-a {
-  text-decoration: none;
 }
 
 /* Оформление хедера */
@@ -34,6 +31,7 @@ a {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .header {
@@ -53,9 +51,11 @@ a {
 
 .pages a {
   color: var(--title-color);
+  text-decoration: none;
 }
 .contacts a {
   color: var(--primery-text-color);
+  text-decoration: none;
 }
 
 .pages a:hover,
