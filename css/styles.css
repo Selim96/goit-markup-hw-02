@@ -58,6 +58,7 @@ a {
   color: var(--primery-text-color);
 }
 
+.pages a:hover,
 .pages a:active,
 .pages a:focus,
 .contacts a:hover,
@@ -124,7 +125,7 @@ a {
 }
 
 .team {
-  background-color: rgba(245, 244, 250, 1);
+  background-color: var(--filter-color);
 }
 
 .names {
@@ -141,6 +142,39 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+/* офрмление портфолио */
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--filter-color);
+  color: var(--title-color);
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--button-color);
+  color: var(--baner-text-color);
+  cursor: pointer;
+}
+
+.products-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.products-type {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
 /* Оформление футера */
 
 .footer {
@@ -154,22 +188,6 @@ a {
   letter-spacing: 0.03em;
 }
 
-.filter {
-  background-color: var(--filter-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-color);
-}
-.filter:hover,
-.filter:focus {
-  color: var(--baner-text-color);
-  background-color: var(--button-color);
-  cursor: pointer;
-}
-
-footer .contacts a {
+.footer li a {
   color: var(--footer-text-color);
 }
