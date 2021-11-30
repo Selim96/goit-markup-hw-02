@@ -53,6 +53,11 @@ body {
   color: var(--title-color);
   text-decoration: none;
 }
+
+.pages a.link {
+  color: var(--button-color);
+}
+
 .contacts a {
   color: var(--primery-text-color);
   text-decoration: none;
